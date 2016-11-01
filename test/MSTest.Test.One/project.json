@@ -2,18 +2,21 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "NUnit": "3.5.0",
-    "dotnet-test-nunit": "3.4.0-beta-3",
+    "MSTest.TestFramework": "1.0.4-preview",
+    "dotnet-test-mstest": "1.0.1-preview",
     "Utilities": {
       "target": "project"
     }
   },
 
-  "testRunner": "nunit",
+  "testRunner": "mstest",
 
   "frameworks": {
     "netcoreapp1.0": {
-      "imports": "portable-net45+win8",
+      "imports": [
+        "dnxcore50",
+        "portable-net451+win8"
+      ],
       "dependencies": {
         "Microsoft.NETCore.App": {
           "version": "1.0.0-*",
