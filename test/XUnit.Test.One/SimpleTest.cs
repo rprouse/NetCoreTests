@@ -2,6 +2,7 @@
 
 namespace XUnit.Test.One
 {
+    [Trait("Category", "xUnit")]
     public class SimpleTest
     {
         [Fact]

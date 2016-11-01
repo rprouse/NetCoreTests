@@ -13,6 +13,7 @@ namespace XUnit.Test.One
         integrationTesting
     }
 
+    [Trait("Category", "xUnit")]
     public class EnumToStringConverterTests
     {
         [Theory]
