@@ -14,6 +14,7 @@ namespace NUnit.Test.One
     }
 
     [TestFixture]
+    [Category("NUnit")]
     public class EnumToStringConverterTests
     {
         [TestCase((TestTypes)10, "")]

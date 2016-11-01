@@ -18,6 +18,7 @@ namespace MSTest.Test.One
     }
 
     [TestClass]
+    [TestCategory("MSTest")]
     public class EnumToStringConverterTests
     {
         [DataTestMethod]
